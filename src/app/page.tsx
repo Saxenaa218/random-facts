@@ -5,7 +5,10 @@ const baseURL = 'https://uselessfacts.jsph.pl'
 
 export default function Home() {
 
-  const [factObj, setFactObj] = useState({})
+  const [factObj, setFactObj] = useState({
+    text: "",
+    source_url: ""
+  })
   const [loading, setLoading] = useState(true)
 
   const getFact = async () => {
