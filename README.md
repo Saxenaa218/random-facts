@@ -1,4 +1,4 @@
-```(Running live on)[https://random-facts.vercel.app/]```
+[Running live on](https://random-facts.vercel.app/)
 
 ## Getting Started
 
